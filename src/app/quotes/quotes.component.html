@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6">
+      <li *ngFor="let quote of Quotes;let i=index">{{quote.quote}} {{quote.author}} <br>{{quote.likes}}<span (click)="like(i)" class=" btn btn-xs btn-success" type="button">like</span> {{quote.dislikes}}<span (click)="dislike(i)" class="btn btn-xs btn-success" type="button">dislike</span>  <br> <br> <span><button class="btn-danger btn-xs" (click)="Delete(i)">Delete</button></span> <hr></li> 
+    </div>   
+    <div class="col-xs col-md-6">
+      <app-quotes-form (newAdd)="new($event)" ></app-quotes-form>
+    </div>
+  </div>  
+</div>
