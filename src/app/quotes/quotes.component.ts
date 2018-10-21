@@ -8,12 +8,13 @@ import {Quotes} from '../quotes';
 })
 export class QuotesComponent implements OnInit {
   Quotes=[
-    new Quotes ('If you see something, say something!','Katana',0,0,),
-    new Quotes ('No coffee, no coding!','Cliff',0,0), 
-    new Quotes ('If you wonna copy, be wise','Steve',0,0),
+    new Quotes ('If you see something, say something!', 'Katana',0,0,),
+    new Quotes ('Dont wait for it to happen,make it happen!',  'Cliff',0,0), 
+    new Quotes ('Before your react,think. Before you quit,try!', 'Steve',0,0),
+    new Quotes ('If you rest,you rust!', 'Peter',0,0),
   ]
   constructor() { }
-
+appen
   ngOnInit() {
   }
   like(i){
