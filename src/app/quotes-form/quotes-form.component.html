@@ -3,8 +3,8 @@
 <form (ngSubmit)="addQuote()" #add="ngForm" class="form-group col-xs-6">
   <div>
     <label for="name">Author's Name</label>
-    <input [(ngModel)]="newQuote.name" #name="ngModel" name="name" type="text" class="form-control"  required id="name"
-      placeholder="Enter the name of Author">
+    <input [(ngModel)]="newQuote.name" #name="ngModel" name="name" type="text" class="form-control"   id="name"
+      placeholder="Enter the name of Author" required/>
   </div> <br> <br>
   <div>
     <label for="quote"> Quote</label>

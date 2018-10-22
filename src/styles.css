@@ -1,2 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap3/dist/css/bootstrap.css"
+@import "~bootstrap3/dist/css/bootstrap.css";
+
+body {
+color:rgb(23, 171, 182);
+font-style: italic;
+border:30px solid lightblue;
+background-color: rgb(113, 121, 13);
+}
+
+h2{
+    text-decoration-color: darkgreen;
+    text-decoration-line: none;
+    text-decoration-style: double;
+}
+h1{
+    text-align: center;
+    text-shadow: chartreuse;
+    text-decoration-color: blue;
+    text-size-adjust: 30px;
+}
+
+p{ text-align: center;
+   font-style: italic;
+   font-size: 14px;
+}
+
+
+
+
+
