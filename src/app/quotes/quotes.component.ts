@@ -14,7 +14,7 @@ export class QuotesComponent implements OnInit {
     new Quotes ('If you rest,you rust!', 'Peter',0,0),
   ]
   constructor() { }
-appen
+
   ngOnInit() {
   }
   like(i){
