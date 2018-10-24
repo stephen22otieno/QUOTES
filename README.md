@@ -35,5 +35,5 @@ Angular
 ## Support/Contacts
 Stephen Otieno   Stephenombiro22@gmail.com
 
-License
+## License
 MIT©2018
